@@ -1,7 +1,7 @@
 {
       "storeHouse": [{
               "sourceName": "追剧",
-                  "sourceUrl": "https://codeberg.org/tvbox/duocang/src/branch/main/z"
+                  "sourceUrl": "https://codeberg.org/tvbox/duocang/src/branch/main/z.json"
       },{
               "sourceName": "欧歌",
                   "sourceUrl": "http://tv.nxog.top/api.php?mz=xb&id=1&b=欧歌"
