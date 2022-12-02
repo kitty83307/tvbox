@@ -1,15 +1,15 @@
 {
       "storeHouse": [{
               "sourceName": "追剧",
-                  "sourceUrl": "https://codeberg.org/tvbox/duocang/src/branch/main/z.json"
+                  "sourceUrl": "https://codeberg.org/tvbox/duocang/raw/branch/main/z.json"
       },{
               "sourceName": "欧歌",
-                  "sourceUrl": "http://tv.nxog.top/api.php?mz=xb&id=1&b=欧歌"
+                  "sourceUrl": "http://tv.nxog.top/nxog/ou.php?url=http://tv.nxog.top&b="
       },{
               "sourceName": "派大星",
                   "sourceUrl": "http://tv.nxog.top/api.php?mz=xb&id=2&b=派大星"
       },{
               "sourceName": "飞机",
-                  "sourceUrl": "https://codeberg.org/tvbox/duocang/src/branch/main/y.json"
+                  "sourceUrl": "https://codeberg.org/tvbox/duocang/raw/branch/main/y.json"
       }]
 }
