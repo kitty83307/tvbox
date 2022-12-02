@@ -1,0 +1,12 @@
+{
+      "storeHouse": [{
+              "sourceName": "追剧",
+                  "sourceUrl": "https://codeberg.org/tvbox/duocang/src/branch/main/z"
+      },{
+              "sourceName": "欧歌",
+                  "sourceUrl": "http://tv.nxog.top/api.php?mz=xb&id=1&b=欧歌"
+      },{
+              "sourceName": "派大星",
+                  "sourceUrl": "http://tv.nxog.top/api.php?mz=xb&id=2&b=派大星"
+      }]
+}
