@@ -9,10 +9,7 @@
               "sourceName": "派大星",
                   "sourceUrl": "http://tv.nxog.top/m/m/1.php?b=派大星"
       },{
-              "sourceName": "优质",
-                  "sourceUrl": "https://agit.ai/VivoMax/video/raw/branch/master/zxck.json"
-      },{
-              "sourceName": "飞机",
+              "sourceName": "储备",
                   "sourceUrl": "https://codeberg.org/tvbox/duocang/raw/branch/main/y.json"
       }]
 }
