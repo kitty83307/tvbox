@@ -1,0 +1,607 @@
+{
+      "spider": "./4Kvip.jar;md5;f6ce0ce7bd8b398540be062ebef7051d",
+        "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
+          "sites": [
+                {
+                          "key": "豆豆",
+                                "name": "📚┃豆瓣┃【接口纯属网络整合】📚",
+                                      "type": 3,
+                                            "api": "csp_DouDou",
+                                                  "searchable": 0,
+                                                        "quickSearch": 0,
+                                                              "filterable": 0
+                },
+                    {
+                              "key": "Bili",
+                                    "name": "📚哔哩合集┃所有资源均为免费提供",
+                                          "type": 3,
+                                                "api": "csp_Bili",
+                                                      "style": {
+                                                                "type": "rect",
+                                                                        "ratio": 1.597
+                                                      },
+                                                            "searchable": 1,
+                                                                  "quickSearch": 0,
+                                                                        "changeable": 0,
+                                                                              "ext": "./lib/bilibili.json"
+                    },
+                        {
+                                  "key": "csp_woggcli",
+                                        "name": "📚4KHDR┃T4站-A",
+                                              "type": 4,
+                                                    "api": "http://home.jundie.top:9520/spider/csp_Wogg?sort=原画,蓝光,超清,高清&token=8e14121f900f4bdfb861306f7a67b17c",
+                                                          "searchable": 1,
+                                                                "quickSearch": 1,
+                                                                      "filterable": 1
+                        },
+                            {
+                                      "key": "玩偶哥哥",
+                                            "name": "📚4KHDR┃4K站-B",
+                                                  "type": 3,
+                                                        "api": "csp_WoGG",
+                                                              "searchable": 1,
+                                                                    "quickSearch": 1,
+                                                                          "changeable": 0,
+                                                                                "ext": "http://127.0.0.1:9978/file/tvbox/d3bf1ef8-625a-4ac1-a4a1-c588c620fcc9/token.txt"
+                            },
+                                {
+                                          "key": "PanSou",
+                                                "name": "📚4KHDR┃4K站-C",
+                                                      "type": 3,
+                                                            "api": "csp_PanSou",
+                                                                  "searchable": 1,
+                                                                        "quickSearch": 1,
+                                                                              "changeable": 0,
+                                                                                    "ext": "http://127.0.0.1:9978/file/tvbox/d3bf1ef8-625a-4ac1-a4a1-c588c620fcc9/token.txt"
+                                },
+                                    {
+                                              "key": "七夜",
+                                                    "name": "📚4KHDR┃4K站-D",
+                                                          "type": 3,
+                                                                "api": "csp_Dovx",
+                                                                      "searchable": 1,
+                                                                            "quickSearch": 1,
+                                                                                  "changeable": 0,
+                                                                                        "ext": "http://127.0.0.1:9978/file/tvbox/d3bf1ef8-625a-4ac1-a4a1-c588c620fcc9/token.txt"
+                                    },
+                                        {
+                                                  "key": "优酷",
+                                                        "name": "📚2KHDR┃官源-1",
+                                                              "type": 3,
+                                                                    "api": "./lib/drpy2.min.js",
+                                                                          "ext": "./lib/youku.js"
+                                        },
+                                            {
+                                                      "key": "芒果",
+                                                            "name": "📚2KHDR┃官源-2",
+                                                                  "type": 3,
+                                                                        "api": "./lib/drpy2.min.js",
+                                                                              "ext": "./lib/mangguo.js"
+                                            },
+                                                {
+                                                          "key": "爱奇异",
+                                                                "name": "📚2KHDR┃官源-3",
+                                                                      "type": 3,
+                                                                            "api": "./lib/drpy2.min.js",
+                                                                                  "ext": "./lib/aiqiyi.js"
+                                                },
+                                                    {
+                                                              "key": "腾讯",
+                                                                    "name": "📚2KHDR┃官源-4",
+                                                                          "type": 3,
+                                                                                "api": "./lib/drpy2.min.js",
+                                                                                      "ext": "./lib/tengxun.js"
+                                                    },
+                                                        {
+                                                                  "key": "Czsapp",
+                                                                        "name": "📚2KHDR┃秒播-A",
+                                                                              "type": 3,
+                                                                                    "api": "csp_Czsapp",
+                                                                                          "playerType": 2,
+                                                                                                "searchable": 1,
+                                                                                                      "quickSearch": 1,
+                                                                                                            "changeable": 1,
+                                                                                                                  "ext": "https://www.czzy88.com/"
+                                                        },
+                                                            {
+                                                                      "key": "南瓜",
+                                                                            "name": "📚2KHDR┃秒播-B",
+                                                                                  "type": 3,
+                                                                                        "api": "csp_NanGua",
+                                                                                              "playerType": 2,
+                                                                                                    "searchable": 1,
+                                                                                                          "quickSearch": 1,
+                                                                                                                "changeable": 1
+                                                            },
+                                                                {
+                                                                          "key": "csp_Nmys",
+                                                                                "name": "📚2KHDR┃秒播-C",
+                                                                                      "type": 3,
+                                                                                            "api": "csp_Nmys",
+                                                                                                  "searchable": 1,
+                                                                                                        "quickSearch": 1,
+                                                                                                              "changeable": 1,
+                                                                                                                    "ext": "./lib/nmys.json"
+                                                                },
+                                                                    {
+                                                                              "key": "csp_Bttoo",
+                                                                                    "name": "📚2KHDR┃秒播-D",
+                                                                                          "type": 3,
+                                                                                                "api": "csp_Bttwoo",
+                                                                                                      "searchable": 1,
+                                                                                                            "quickSearch": 1,
+                                                                                                                  "changeable": 1
+                                                                    },
+                                                                        {
+                                                                                  "key": "Biliych",
+                                                                                        "name": "📚热门┃歌曲",
+                                                                                              "type": 3,
+                                                                                                    "api": "csp_Bili",
+                                                                                                          "style": {
+                                                                                                                    "type": "rect",
+                                                                                                                            "ratio": 1.597
+                                                                                                          },
+                                                                                                                "searchable": 1,
+                                                                                                                      "quickSearch": 0,
+                                                                                                                            "changeable": 0,
+                                                                                                                                  "ext": "./lib/biliych.json"
+                                                                        },
+                                                                            {
+                                                                                      "key": "js58",
+                                                                                            "name": "📚五八┃动漫",
+                                                                                                  "type": 3,
+                                                                                                        "api": "./lib/drpy2.min.js",
+                                                                                                              "searchable": 0,
+                                                                                                                    "quickSearch": 0,
+                                                                                                                          "filterable": 1,
+                                                                                                                                "ext": "./lib/58动漫.js"
+                                                                            },
+                                                                                {
+                                                                                          "key": "csp_动漫巴士",
+                                                                                                "name": "📚动漫┃巴士",
+                                                                                                      "type": 3,
+                                                                                                            "api": "csp_XPath",
+                                                                                                                  "searchable": 1,
+                                                                                                                        "quickSearch": 1,
+                                                                                                                              "filterable": 0,
+                                                                                                                                    "ext": "./lib/动漫巴士.json"
+                                                                                },
+                                                                                    {
+                                                                                              "key": "csp_qiumi",
+                                                                                                    "name": "📚Jrs球┃直播",
+                                                                                                          "type": 3,
+                                                                                                                "api": "./lib/drpy2.min.js",
+                                                                                                                      "ext": "./lib/JRKAN直播.js",
+                                                                                                                            "style": {
+                                                                                                                                        "type": "rect",
+                                                                                                                                                "ratio": 1
+                                                                                                                            },
+                                                                                                                                  "searchable": 0,
+                                                                                                                                        "quickSearch": 0,
+                                                                                                                                              "changeable": 0
+                                                                                    },
+                                                                                        {
+                                                                                                  "key": "88js",
+                                                                                                        "name": "📚看球┃球迷",
+                                                                                                              "type": 3,
+                                                                                                                    "api": "./lib/drpy2.min.js",
+                                                                                                                          "ext": "./lib/88看球.js",
+                                                                                                                                "style": {
+                                                                                                                                            "type": "rect",
+                                                                                                                                                    "ratio": 1
+                                                                                                                                },
+                                                                                                                                      "searchable": 0,
+                                                                                                                                            "quickSearch": 0,
+                                                                                                                                                  "changeable": 0
+                                                                                        },
+                                                                                            {
+                                                                                                      "key": "drpy_js_短剧网",
+                                                                                                            "name": "📚短剧┃大全",
+                                                                                                                  "type": 3,
+                                                                                                                        "api": "./lib/drpy2.min.js",
+                                                                                                                              "ext": "./lib/短剧网.js"
+                                                                                            },
+                                                                                                {
+                                                                                                          "key": "戏曲杂苑",
+                                                                                                                "name": "📚戏曲｜大全",
+                                                                                                                      "type": 3,
+                                                                                                                            "api": "csp_Bili",
+                                                                                                                                  "searchable": 0,
+                                                                                                                                        "quickSearch": 1,
+                                                                                                                                              "filterable": 1,
+                                                                                                                                                    "ext": "./lib/哔哩戏曲.json"
+                                                                                                },
+                                                                                                    {
+                                                                                                              "key": "相声小品",
+                                                                                                                    "name": "📚相声｜小品",
+                                                                                                                          "type": 3,
+                                                                                                                                "api": "csp_Bili",
+                                                                                                                                      "searchable": 0,
+                                                                                                                                            "quickSearch": 1,
+                                                                                                                                                  "filterable": 1,
+                                                                                                                                                        "ext": "./lib/哔哩相声.json"
+                                                                                                    },
+                                                                                                        {
+                                                                                                                  "key": "dr_兔小贝",
+                                                                                                                        "name": "📚教育┃儿童启蒙",
+                                                                                                                              "type": 3,
+                                                                                                                                    "api": "./lib/drpy2.min.js",
+                                                                                                                                          "ext": "./lib/兔小贝.js",
+                                                                                                                                                "style": {
+                                                                                                                                                            "type": "rect",
+                                                                                                                                                                    "ratio": 1.597
+                                                                                                                                                },
+                                                                                                                                                      "searchable": 0,
+                                                                                                                                                            "quickSearch": 0,
+                                                                                                                                                                  "changeable": 0
+                                                                                                        },
+                                                                                                            {
+                                                                                                                      "key": "少儿教育",
+                                                                                                                            "name": "📚教育┃少儿教育",
+                                                                                                                                  "type": 3,
+                                                                                                                                        "api": "csp_Bili",
+                                                                                                                                              "style": {
+                                                                                                                                                        "type": "rect",
+                                                                                                                                                                "ratio": 1.597
+                                                                                                                                              },
+                                                                                                                                                    "searchable": 0,
+                                                                                                                                                          "quickSearch": 0,
+                                                                                                                                                                "changeable": 0,
+                                                                                                                                                                      "ext": "./lib/少儿教育.json"
+                                                                                                            },
+                                                                                                                {
+                                                                                                                          "key": "小学课堂",
+                                                                                                                                "name": "📚教育┃小学课堂",
+                                                                                                                                      "type": 3,
+                                                                                                                                            "api": "csp_Bili",
+                                                                                                                                                  "style": {
+                                                                                                                                                            "type": "rect",
+                                                                                                                                                                    "ratio": 1.597
+                                                                                                                                                  },
+                                                                                                                                                        "searchable": 0,
+                                                                                                                                                              "quickSearch": 0,
+                                                                                                                                                                    "changeable": 0,
+                                                                                                                                                                          "ext": "./lib/小学课堂.json"
+                                                                                                                },
+                                                                                                                    {
+                                                                                                                              "key": "初中课堂",
+                                                                                                                                    "name": "📚教育┃初中课堂",
+                                                                                                                                          "type": 3,
+                                                                                                                                                "api": "csp_Bili",
+                                                                                                                                                      "style": {
+                                                                                                                                                                "type": "rect",
+                                                                                                                                                                        "ratio": 1.597
+                                                                                                                                                      },
+                                                                                                                                                            "searchable": 0,
+                                                                                                                                                                  "quickSearch": 0,
+                                                                                                                                                                        "changeable": 0,
+                                                                                                                                                                              "ext": "./lib/初中课堂.json"
+                                                                                                                    },
+                                                                                                                        {
+                                                                                                                                  "key": "高中教育",
+                                                                                                                                        "name": "📚教育┃高中课堂",
+                                                                                                                                              "type": 3,
+                                                                                                                                                    "api": "csp_Bili",
+                                                                                                                                                          "style": {
+                                                                                                                                                                    "type": "rect",
+                                                                                                                                                                            "ratio": 1.597
+                                                                                                                                                          },
+                                                                                                                                                                "searchable": 0,
+                                                                                                                                                                      "quickSearch": 0,
+                                                                                                                                                                            "changeable": 0,
+                                                                                                                                                                                  "ext": "./lib/高中课堂.json"
+                                                                                                                        }
+          ],
+            "parses": [
+                    {
+                              "name": "聚合",
+                                    "type": 3,
+                                          "url": "Demo"
+                    },
+                        {
+                                  "name": "LR",
+                                        "type": 1,
+                                              "url": "http://42.157.129.144:2323/CH/caihong_1993138546.php?url="
+                        },
+                            {
+                                      "name": "奇奇",
+                                            "type": 1,
+                                                  "url": "https://api.tyun77.cn/api.php/provide/parseDicturl?url="
+                            },
+                                {
+                                          "name": "神秘的哥哥们",
+                                                "type": 1,
+                                                      "url": "http://api.888484.xyz/jiexi/米太硬.php?url=",
+                                                            "ext": {
+                                                                        "flag": [
+                                                                                      "qq",
+                                                                                                "腾讯",
+                                                                                                          "qiyi",
+                                                                                                                    "爱奇艺",
+                                                                                                                              "奇艺",
+                                                                                                                                        "youku",
+                                                                                                                                                  "优酷",
+                                                                                                                                                            "tucheng",
+                                                                                                                                                                      "sohu",
+                                                                                                                                                                                "搜狐",
+                                                                                                                                                                                          "letv",
+                                                                                                                                                                                                    "乐视",
+                                                                                                                                                                                                              "mgtv",
+                                                                                                                                                                                                                        "芒果",
+                                                                                                                                                                                                                                  "tnmb",
+                                                                                                                                                                                                                                            "seven",
+                                                                                                                                                                                                                                                      "yzm",
+                                                                                                                                                                                                                                                                "aliyun",
+                                                                                                                                                                                                                                                                          "RJuMao",
+                                                                                                                                                                                                                                                                                    "bilibili",
+                                                                                                                                                                                                                                                                                              "1905",
+                                                                                                                                                                                                                                                                                                        "xinvip",
+                                                                                                                                                                                                                                                                                                                  "XAL",
+                                                                                                                                                                                                                                                                                                                            "qiqi",
+                                                                                                                                                                                                                                                                                                                                      "XALS",
+                                                                                                                                                                                                                                                                                                                                                "YuMi-vip"
+                                                                        ]
+                                                            }
+                                },
+                                    {
+                                              "name": "公众号",
+                                                    "type": 1,
+                                                          "url": "https://api.tyun77.cn/api.php/provide/parseDicturl?url=",
+                                                                "ext": {
+                                                                            "flag": [
+                                                                                          "qq",
+                                                                                                    "腾讯",
+                                                                                                              "qiyi",
+                                                                                                                        "iqiyi",
+                                                                                                                                  "爱奇艺",
+                                                                                                                                            "奇艺",
+                                                                                                                                                      "youku",
+                                                                                                                                                                "优酷",
+                                                                                                                                                                          "mgtv",
+                                                                                                                                                                                    "芒果",
+                                                                                                                                                                                              "letv",
+                                                                                                                                                                                                        "乐视",
+                                                                                                                                                                                                                  "pptv",
+                                                                                                                                                                                                                            "PPTV",
+                                                                                                                                                                                                                                      "sohu",
+                                                                                                                                                                                                                                                "bilibili",
+                                                                                                                                                                                                                                                          "哔哩哔哩",
+                                                                                                                                                                                                                                                                    "哔哩"
+                                                                            ]
+                                                                }
+                                    },
+                                        {
+                                                  "name": "免费分享",
+                                                        "type": 0,
+                                                              "url": "https://jx.xmflv.com/?url=",
+                                                                    "ext": {
+                                                                                "flag": [
+                                                                                              "qq",
+                                                                                                        "腾讯",
+                                                                                                                  "qiyi",
+                                                                                                                            "爱奇艺",
+                                                                                                                                      "奇艺",
+                                                                                                                                                "youku",
+                                                                                                                                                          "优酷",
+                                                                                                                                                                    "mgtv",
+                                                                                                                                                                              "芒果",
+                                                                                                                                                                                        "imgo",
+                                                                                                                                                                                                  "letv",
+                                                                                                                                                                                                            "乐视",
+                                                                                                                                                                                                                      "pptv",
+                                                                                                                                                                                                                                "PPTV",
+                                                                                                                                                                                                                                          "sohu",
+                                                                                                                                                                                                                                                    "bilibili",
+                                                                                                                                                                                                                                                              "哔哩哔哩",
+                                                                                                                                                                                                                                                                        "哔哩"
+                                                                                ],
+                                                                                        "header": {
+                                                                                                      "User-Agent": "okhttp/4.1.0"
+                                                                                        }
+                                                                    }
+                                        }
+            ],
+              "doh": [
+                    {
+                              "name": "Google",
+                                    "url": "https://dns.google/dns-query",
+                                          "ips": [
+                                                    "8.8.4.4",
+                                                            "8.8.8.8"
+                                          ]
+                    },
+                        {
+                                  "name": "Cloudflare",
+                                        "url": "https://cloudflare-dns.com/dns-query",
+                                              "ips": [
+                                                        "1.1.1.1",
+                                                                "1.0.0.1",
+                                                                        "2606:4700:4700::1111",
+                                                                                "2606:4700:4700::1001"
+                                              ]
+                        },
+                            {
+                                      "name": "AdGuard",
+                                            "url": "https://dns.adguard.com/dns-query",
+                                                  "ips": [
+                                                            "94.140.14.140",
+                                                                    "94.140.14.141"
+                                                  ]
+                            },
+                                {
+                                          "name": "DNSWatch",
+                                                "url": "https://resolver2.dns.watch/dns-query",
+                                                      "ips": [
+                                                                "84.200.69.80",
+                                                                        "84.200.70.40"
+                                                      ]
+                                },
+                                    {
+                                              "name": "Quad9",
+                                                    "url": "https://dns.quad9.net/dns-quer",
+                                                          "ips": [
+                                                                    "9.9.9.9",
+                                                                            "149.112.112.112"
+                                                          ]
+                                    }
+              ],
+                "rules": [
+                        {
+                                  "name": "量子",
+                                        "hosts": [
+                                                    "vip.lz",
+                                                            "hd.lz",
+                                                                    "v.cdnlz1",
+                                                                            "v.cdnlz"
+                                        ],
+                                              "regex": [
+                                                        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                                                                "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+                                              ]
+                        },
+                            {
+                                      "name": "非凡",
+                                            "hosts": [
+                                                        "vip.ffzy",
+                                                                "hd.ffzy"
+                                            ],
+                                                  "regex": [
+                                                            "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                                                                    "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+                                                  ]
+                            },
+                                {
+                                          "name": "暴風",
+                                                "hosts": [
+                                                            "bfzy"
+                                                ],
+                                                      "regex": [
+                                                                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+                                                      ]
+                                },
+                                    {
+                                              "name": "hs",
+                                                    "hosts": [
+                                                                "huoshan.com"
+                                                    ],
+                                                          "regex": [
+                                                                    "item_id="
+                                                          ]
+                                    },
+                                        {
+                                                  "name": "dy",
+                                                        "hosts": [
+                                                                    "douyin.com"
+                                                        ],
+                                                              "regex": [
+                                                                        "is_play_url="
+                                                              ]
+                                        },
+                                            {
+                                                      "name": "cl",
+                                                            "hosts": [
+                                                                        "magnet"
+                                                            ],
+                                                                  "regex": [
+                                                                            "最 新",
+                                                                                    "直 播",
+                                                                                            "更 新"
+                                                                  ]
+                                            }
+                ],
+                  "lives": [
+                        {
+                                  "name": "live",
+                                        "type": 0,
+                                              "url": "./lib/tvlive.txt",
+                                                    "playerType": 1,
+                                                          "ua": "okhttp/3.15",
+                                                                "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+                                                                      "logo": "https://epg.112114.xyz/logo/{name}.png"
+                        }
+                  ]
+}
+                        }
+                  ]
+                                                                  ]
+                                                            ]
+                                            }
+                                                              ]
+                                                        ]
+                                        }
+                                                          ]
+                                                    ]
+                                    }
+                                                      ]
+                                                ]
+                                }
+                                                  ]
+                                            ]
+                            }
+                                              ]
+                                        ]
+                        }
+                ]
+                                                          ]
+                                    }
+                                                      ]
+                                }
+                                                  ]
+                            }
+                                              ]
+                        }
+                                          ]
+                    }
+              ]
+                                                                                        }
+                                                                                ]
+                                                                    }
+                                        }
+                                                                            ]
+                                                                }
+                                    }
+                                                                        ]
+                                                            }
+                                }
+                            }
+                        }
+                    }
+            ]
+                                                                                                                                                          }
+                                                                                                                        }
+                                                                                                                                                      }
+                                                                                                                    }
+                                                                                                                                                  }
+                                                                                                                }
+                                                                                                                                              }
+                                                                                                            }
+                                                                                                                                                }
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                                                                }
+                                                                                        }
+                                                                                                                            }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                                                          }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                                                      }
+                    }
+                }
+          ]
+}
