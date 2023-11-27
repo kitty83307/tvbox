@@ -1,6 +1,7 @@
 {
         "storeHouse": [
             {"sourceName": "追剧","sourceUrl": "https://codeberg.org/tvbox/duocang/raw/branch/main/luo"},
+            {"sourceName": "乐享汇","sourceUrl": "https://too.st/6oK"},
             {"sourceName": "恒星","sourceUrl": "https://codeberg.org/hengxing/hx/raw/branch/main/myw5.txt"},
             {"sourceName": "整挺好","sourceUrl": "https://codeberg.org/ztha/tvbox/raw/branch/main/thgyck.json"},
             {"sourceName": "业余打发","sourceUrl": "http://111.67.195.139/yydf/duocangjk.json"},
