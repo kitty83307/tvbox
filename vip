@@ -1,7 +1,7 @@
 {
         "storeHouse": [
             {"sourceName": "追剧","sourceUrl": "https://codeberg.org/tvbox/duocang/raw/branch/main/luo"},
-            {"sourceName": "乐享汇","sourceUrl": "https://too.st/6oK"},
+            {"sourceName": "乐享汇","sourceUrl": "https://too.st/6s0"},
             {"sourceName": "天微仓","sourceUrl": "http://tvkj.top/DC.txt"},
             {"sourceName": "摸鱼仓","sourceUrl": "https://jihulab.com/moyuer/moyu/-/raw/main/moyucang.json"},
             {"sourceName": "青木仓","sourceUrl": "https://pan.shangui.cc/f/5d3mSA/Aoki.json"},
