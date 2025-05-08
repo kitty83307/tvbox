@@ -1,18 +1,25 @@
 {
-        "storeHouse": [
-            {"sourceName": "追剧","sourceUrl": "https://codeberg.org/tvbox/duocang/raw/branch/main/luo"},
-            {"sourceName": "乐享汇","sourceUrl": "https://too.st/6s0"},
-            {"sourceName": "天微仓","sourceUrl": "http://tvkj.top/DC.txt"},
-            {"sourceName": "摸鱼仓","sourceUrl": "https://jihulab.com/moyuer/moyu/-/raw/main/moyucang.json"},
-            {"sourceName": "青木仓","sourceUrl": "https://pan.shangui.cc/f/5d3mSA/Aoki.json"},
-            {"sourceName": "整挺好","sourceUrl": "https://codeberg.org/ztha/tvbox/raw/branch/main/thgyck.json"},
-            {"sourceName": "拾光畅谈","sourceUrl": "https://gh.con.sh/https://raw.githubusercontent.com/xmbjm/xmbjm/main/xmbjmdc.json"},
-            {"sourceName": "蓝色影视仓","sourceUrl": "https://codeberg.org/xvnhs/xiamen/raw/branch/zcgdb/Xboxb.json"},
-            {"sourceName": "恒星(主用)","sourceUrl": "https://codeberg.org/hengxing/hx/raw/branch/main/xmyw%E2%80%9C1%E2%80%9D.txt"},
-            {"sourceName": "恒星","sourceUrl": "https://codeberg.org/hengxing/hx/raw/branch/main/myw5.txt"},
-            {"sourceName": "业余打发","sourceUrl": "http://111.67.195.139/yydf/duocangjk.json"},
-            {"sourceName": "心动仓","sourceUrl": "http://rihou.vip:666"},
-            {"sourceName": "欧歌仓","sourceUrl": "http://tv.nxog.top/nxog/ou1.php?url=http://tv.nxog.top&b=欧歌"},
-            {"sourceName": "日后魔改①","sourceUrl": "http://rihou.vip:55"}
-        ]
+            "storeHouse": [
+                            {"sourceName": "追剧","sourceUrl": "https://gitee.com/luo---bin/luobin/raw/main/luo
+"},
+                            {"sourceName": "码点小干货","sourceUrl": "http://120.79.4.185/dc.json"},
+                            {"sourceName": "毒盒","sourceUrl": "https://tv.youdu.fan:666"},
+                            {"sourceName": "地瓜妹妹","sourceUrl": "https://www.qiqiguai.com/tv/1"},
+                            {"sourceName": "天微仓","sourceUrl": "http://tvkj.top/DC.txt"},
+                            {"sourceName": "摸鱼仓","sourceUrl": "http://小鱼干.摸鱼儿.top"},
+                            {"sourceName": "凯弟","sourceUrl": "https://jihulab.com/jyqhkd1/jk/-/raw/main/8.json"},
+                            {"sourceName": "武哥仓","sourceUrl": "https://d.kstore.space/download/5147/%E6%97%A0%E6%95%8C%E4%BB%93duoxianlu.json"},
+                            {"sourceName": "蜂蜜仓","sourceUrl": "http://fmys.top/online.json"},
+                            {"sourceName": "整挺好","sourceUrl": "http://ztha.top/全网仓库"},
+                            {"sourceName": "私","sourceUrl": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/fish2018/tvbox/master/all.json"},
+                            {"sourceName": "私2","sourceUrl": "https://fastly.jsdelivr.net/gh/fish2018/tvbox/all.json"},
+                            {"sourceName": "刘公子","sourceUrl": "https://gitee.com/playstat/tv/raw/master/TCLTVBOX2.json"},
+                            {"sourceName": "拾乐趣屋","sourceUrl": "https://gitee.com/xmbjmjk/ck/raw/master/ck.json"},
+                            {"sourceName": "蓝色影视","sourceUrl": "https://d.kstore.space/download/8206/Xboxb.json"},
+                            {"sourceName": "恒星","sourceUrl": "http://yuhuahx.com/hxck1.txt"},
+                            {"sourceName": "绿茶","sourceUrl": "https://gitee.com/luo---bin/luobin/raw/main/bin"},
+                            {"sourceName": "东辰","sourceUrl": "https://gitee.com/dongchenys/liu/raw/master/dczx.json"},
+                            {"sourceName": "CR","sourceUrl": "https://mirror.ghproxy.com/https://github.com/sf467/Tvbox1/raw/main/cr.json"},
+                            {"sourceName": "欧歌仓","sourceUrl": "http://tv.nxog.top/nxog/ou1.php?url=http://tv.nxog.top&b=欧歌"}
+            ]
 }
